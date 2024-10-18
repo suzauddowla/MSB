@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
 * {
   margin: 0;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
+
 /*
 body{
   /* background-color: burlywood;
@@ -32,11 +39,11 @@ body{
 
   /* This is the css of headone */
 /* #headone {
-  /*
+
   border-style: solid;
   border-width: 5px;
   border-color: red;
-  */
+
   /* This is the css of headone
 
   border: 10px solid rgb(0, 255, 42);
@@ -51,8 +58,9 @@ body{
   outline: 5px solid red;
 }
 */
+/*
 .ourpara {
-  background-color: black;
+  /* background-color: whitesmoke;
   color: aqua;
   text-align: justify;
   text-decoration: underline;
@@ -62,7 +70,99 @@ body{
   line-height: 50px;
   word-spacing: 10px;
   white-space: pre-wrap;
+  text-shadow: 2px 2px 5px red;
+  */
+  /*
+  font-weight: bold;
+  font-variant: small-caps;
 }
 pre {
-   
+   white-space: pre;
 }
+*/
+a {
+  color: aqua;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  padding: 15px 35px;
+  border-radius: 10px;
+  border: 2px solid red;
+  display: inline-block;
+  margin:  100px 100px;
+  /*transition: 2s;*/
+}
+
+  /*a:hover{
+    color:darkorange;
+  }*/
+  a:active{
+    color: white;
+    background-color: brown;
+  }
+  a:visited {
+    color: green;
+  }
+
+  ul {
+    list-style-type:lower-greek;
+  }
+
+  ol {
+    list-style-type: lower-alpha;
+  }
+
+
+  table {
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 3px solid salmon;
+  }
+
+  th {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  td {
+    text-align: center;
+    color: rgb(86, 157, 219);
+  }
+
+  th, td {
+    padding: 15px;
+  }
+
+  tr:hover {
+    background-color: burlywood;
+    color: rgb(255, 0, 0);
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(136, 127, 255);
+  }
+  
+  tr:nth-child(even) {
+    background-color: brown;
+  }
+
+  td:nth-child(even) {
+    background-color: brown;
+  }
+
+  th:nth-child(odd){
+    background-color: yellow;
+  }
+
+/* This is footer style section */
+  footer{
+    margin-top: 300px;
+  }
+ 
+
+
+
