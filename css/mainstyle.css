@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap'); */
 
+* {
+  margin: 0;
+
+}
+/*
 * {
   margin: 0;
   font-family: "Edu AU VIC WA NT Guides", cursive;
@@ -7,7 +12,7 @@
   font-weight: 100;
   font-style: normal;
 }
-
+*/
 /*
 body{
   /* background-color: burlywood;
@@ -80,6 +85,7 @@ pre {
    white-space: pre;
 }
 */
+/*
 a {
   color: aqua;
   text-decoration: none;
@@ -92,12 +98,16 @@ a {
   border: 2px solid red;
   display: inline-block;
   margin:  100px 100px;
-  /*transition: 2s;*/
+  transition: 2s;
 }
+*/
+
 
   /*a:hover{
     color:darkorange;
   }*/
+
+  /*
   a:active{
     color: white;
     background-color: brown;
@@ -158,10 +168,180 @@ a {
     background-color: yellow;
   }
 
+  */
+  /*
+  p {
+    display: none;
+    visibility: none;
+  }
+
+  h1 {
+    display: inline;
+  }
+
+  span {
+    display: block;
+  }
+
+.redbox{
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  position: relative;
+}
+.bluebox{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top:30px;
+}
+*/
+
+/*
+  .wrapper .img1 {
+    width: 15%;
+    float: left;
+  }
+
+  .wrapper .p1 {
+    color: black;
+    width: 15%;
+    display: inline-block;
+    float: left;
+    clear: left;
+  }
+
+  .wrapper .p2 {
+    color: yellow;
+    float: left;
+    width: 15%;
+    clear: left;
+  }
+
+  .wrapper .p3 {
+    color: blue;
+    float: left;
+    width: 15%;
+    clear: left;
+  }
+
+  */
+
+  /*
+  .wrapper {
+    width: 1200px;
+    height: 800px;
+    border: 5px solid salmon;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  .wrapper > .div1 {
+    width: 300px;
+    height: 600px;
+    border: 5px solid green;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .wrapper > .div2 {
+    width: 300px;
+    height: 600px;
+    border: 5px solid green;
+    display: inline-block;
+  }
+
+  .wrapper > .div2 {
+    width: 300px;
+    height: 600px;
+    border: 5px solid green;
+    display: inline-block;
+  }
+  */
+
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      outline: 0;
+  }
+
+    /* Main Menu Styling */
+    .main-menu {
+        background-color: rgb(84, 233, 54); /* Greenish background */
+    }
+
+    /* Main Menu Unordered List */
+    .main-menu ul {
+        list-style-type: none; /* Remove default bullets */
+    }
+
+    /* Main Menu List Items */
+    .main-menu ul li {
+        display: inline-block; /* Align list items horizontally */
+        margin-left: 30px;     /* Space between list items */
+        position: relative;    /* Needed for positioning submenus */
+    }
+    /* Main Menu Links */
+    .main-menu ul li a {
+      text-decoration: none;
+      font-size: 22px;
+      font-family: 'Sofia Sans', sans-serif;
+      display: inline-block;
+      padding: 15px 0;
+  }
+
+  /* Submenu on Hover */
+  .main-menu ul li:hover > ul.submenu {
+      display: block;
+  }
+
+  /* Submenu Styling */
+  .main-menu ul li ul.submenu {
+      position: absolute;
+      list-style-type: none;
+      width: 200px;
+      display: none;
+  }
+
+  /* Submenu List Items */
+  .main-menu ul li ul.submenu li {
+      background-color: rgb(191, 253, 22);
+      border-bottom: 2px solid salmon;
+      margin: 0;
+      display: block;
+  }
+
+  /* Last Submenu List Item */
+  .main-menu ul li ul.submenu li:last-child {
+      border-bottom: none;
+  }
+
+  /* Submenu Links */
+  .main-menu ul li ul.submenu li a{
+      text-decoration: none;
+      font-size: 18px;
+      display: block;
+      padding: 15px 5px;
+      font-family: 'Sofia Sans', sans-serif;
+  }
+
+  .main-menu ul li ul.submenu li ul.submenu{
+      top: 0px;
+      left: 100%;
+  }
+
+
 /* This is footer style section */
+
+/*
   footer{
     margin-top: 300px;
   }
+*/
  
 
 
