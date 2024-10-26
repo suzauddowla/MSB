@@ -268,24 +268,27 @@ a {
       padding: 0;
       outline: 0;
   }
-
+    
     /* Main Menu Styling */
+    /*
     .main-menu {
-        background-color: rgb(84, 233, 54); /* Greenish background */
+        background-color: rgb(84, 233, 54);
     }
-
-    /* Main Menu Unordered List */
+    */
+    /* Main Menu Unordered List 
     .main-menu ul {
-        list-style-type: none; /* Remove default bullets */
+        list-style-type: none; 
     }
+    */
 
-    /* Main Menu List Items */
+    /* Main Menu List Items 
     .main-menu ul li {
-        display: inline-block; /* Align list items horizontally */
-        margin-left: 30px;     /* Space between list items */
-        position: relative;    /* Needed for positioning submenus */
+        display: inline-block; 
+        margin-left: 30px;     
+        position: relative;    
     }
-    /* Main Menu Links */
+    */
+    /* Main Menu Links
     .main-menu ul li a {
       text-decoration: none;
       font-size: 22px;
@@ -293,34 +296,36 @@ a {
       display: inline-block;
       padding: 15px 0;
   }
+  */
 
-  /* Submenu on Hover */
+  /* Submenu on Hover 
   .main-menu ul li:hover > ul.submenu {
       display: block;
   }
+  */
 
-  /* Submenu Styling */
+  /* Submenu Styling
   .main-menu ul li ul.submenu {
       position: absolute;
       list-style-type: none;
       width: 200px;
       display: none;
   }
-
-  /* Submenu List Items */
+    */
+  /* Submenu List Items
   .main-menu ul li ul.submenu li {
       background-color: rgb(191, 253, 22);
       border-bottom: 2px solid salmon;
       margin: 0;
       display: block;
   }
-
-  /* Last Submenu List Item */
+  */
+  /* Last Submenu List Item 
   .main-menu ul li ul.submenu li:last-child {
       border-bottom: none;
   }
-
-  /* Submenu Links */
+  */
+  /* Submenu Links
   .main-menu ul li ul.submenu li a{
       text-decoration: none;
       font-size: 18px;
@@ -328,11 +333,101 @@ a {
       padding: 15px 5px;
       font-family: 'Sofia Sans', sans-serif;
   }
-
+  
   .main-menu ul li ul.submenu li ul.submenu{
       top: 0px;
       left: 100%;
   }
+  */
+    /* Wrapper for the form 
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 5px;
+    border: 5px solid salmon;
+    border-radius: 10px;
+  }
+
+  /* Label styling 
+  label {
+    font-size: 18px;
+    color: black;
+    font-family: 'Sofia Sans';
+  }
+
+  /* Text input field styling 
+  input[type="text"] {
+    width: 800px;
+    height: 30px;
+    border: 2px solid salmon;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: 'Sofia Sans';
+    font-size: 22px;
+    color: burlywood;
+    margin-bottom: 20px;
+  }
+  input[type="text"]:focus{
+    background-color: rgb(18, 255, 49);
+  }
+/* Email input field styling 
+input[type="email"] {
+  width: 800px;
+  height: 30px;
+  border: 2px solid salmon;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: 'Sofia Sans';
+  font-size: 22px;
+  color: burlywood;
+  margin-bottom: 20px;
+}
+
+/* Password input field styling 
+input[type="password"] {
+  width: 800px;
+  height: 30px;
+  border: 2px solid salmon;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-family: 'Sofia Sans';
+  font-size: 22px;
+  color: burlywood;
+  margin-bottom: 20px;
+}
+
+/* Select (Dropdown) styling 
+select {
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+/* Textarea styling 
+textarea {
+  width: 100%;
+  height: 250px;
+  font-family: 'Sofia Sans';
+  font-size: 22px;
+  color: burlywood;
+}
+
+/* Submit and Reset button styling 
+input[type="submit"], input[type="reset"] {
+  padding: 10px 20px;
+  font-family: 'Sofia Sans';
+  font-size: 16px;
+  color: rgb(255, 255, 255); 
+  background: rgb(60, 250, 92); 
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Hover effect for Submit and Reset buttons 
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background: black;
+}
 
 
 /* This is footer style section */
